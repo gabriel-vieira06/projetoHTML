@@ -33,7 +33,7 @@ h2{
 header{
     background-image: linear-gradient(to bottom, #E2294F, #7D1128);
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 1em;
 }
 
@@ -46,6 +46,7 @@ header > h1{
 
 header > p{
     margin: 2em;
+    text-align: center;
 }
 
 nav > a{
@@ -70,6 +71,10 @@ main{
 main > p{
     text-align: justify;
     text-indent: 1em;
+}
+
+img {
+    width: 100%;
 }
 
 div{
