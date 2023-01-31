@@ -33,7 +33,7 @@ header h1 {
 section {
     background-color: white;
     line-height: 2em;
-    font-size: 3.5vw;
+    font-size: 4vw;
     padding: 1em;
 }
 
@@ -54,6 +54,6 @@ section#img2 {
 }
 
 section#img1 p, section#img2 p {
-    max-width: 450px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.164);
 }
