@@ -78,10 +78,18 @@ img {
     width: 100%;
 }
 
-div{
+div {
     background-color: #E2294F;
-    height: 350px;
-    padding-top: 25px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div > iframe{
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
 }
 
 article{
