@@ -42,6 +42,7 @@ section#img1 {
     background-image: url(assets/background001.jpg);
     background-attachment: fixed;
     background-position: right center;
+    background-size: cover;
 
     color: white;
 }
@@ -50,6 +51,7 @@ section#img2 {
     background-image: url(assets/background002.jpg);
     background-attachment: fixed;
     background-position: right center;
+    background-size: cover;
 
     color: white;
 }
@@ -57,4 +59,5 @@ section#img2 {
 section#img1 p, section#img2 p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.164);
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
 }
