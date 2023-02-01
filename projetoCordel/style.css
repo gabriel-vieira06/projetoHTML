@@ -5,6 +5,7 @@
 
 body {
     font-family: cursive;
+    min-height: 100vh;
 }
 
 a {
@@ -26,15 +27,15 @@ header, footer{
 }
 
 header h1 {
-    font-size: 5em;
+    font-size: 10vw;
     margin-bottom: 15px;
 }
 
 section {
     background-color: white;
     line-height: 2em;
-    font-size: 4vw;
-    padding: 1em;
+    font-size: 5vw;
+    padding: 10vh;
 }
 
 section#img1 {
